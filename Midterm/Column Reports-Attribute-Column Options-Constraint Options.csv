@@ -1,0 +1,119 @@
+Entity Name,Table Name,Attribute Name,Column Name,Domain Parent,Null Option,Physical Data Type
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,TriggeredEmployeeHistoryId,TriggeredEmployeeHistoryId,SurrogateKeyInt,Not Null,int
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistoryTimestamp,AuditTriggeredEmployeeHistoryTimestamp,TimeStampNow,Null,datetime2(7)
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,TriggerOption,TriggerOption,TriggerOption,Null,char(1)
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,EmployeeId,EmployeeId,SurrogateKeyInt,Not Null,int
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,EmployeeFullName,EmployeeFullName,Name,Not Null,nvarchar(40)
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,Department,Department,Name,Not Null,nvarchar(40)
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,Salary,Salary,Currency,Not Null,money
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,Notes,Notes,Note,Not Null,nvarchar(200)
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,IsDeleted,IsDeleted,FlagChar,Null,char(1)
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,TransactionNumber,TransactionNumber,SequenceNo,Null,int
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,UserAuthenticatedKey,UserAuthenticatedKey,SurrogateKeyInt,Null,int
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,SysStartTime,SysStartTime,TimeStampNow,Null,datetime2(7)
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,SysEndTime,SysEndTime,TimeStampNow,Null,datetime2(7)
+AuditTriggeredEmployeeHistory,AuditTriggeredEmployeeHistory,TimestampRowChanged,TimestampRowChanged,TimeStampNow,Null,datetime2(7)
+Category,Category,CategoryId,CategoryId,SurrogateKeyInt,Not Null,int
+Category,Category,CategoryName,CategoryName,CategoryName,Not Null,nvarchar(15)
+Category,Category,Description,Description,Description,Not Null,nvarchar(200)
+Customer,Customer,CustomerId,CustomerId,SurrogateKeyInt,Not Null,int
+Customer,Customer,CustomerCompanyName,CustomerCompanyName,CompanyName,Not Null,nvarchar(40)
+Customer,Customer,CustomerContactName,CustomerContactName,ContactName,Not Null,nvarchar(30)
+Customer,Customer,CustomerContactTitle,CustomerContactTitle,Title,Not Null,nvarchar(30)
+Customer,Customer,CustomerAddress,CustomerAddress,Address,Not Null,nvarchar(60)
+Customer,Customer,CustomerCity,CustomerCity,City,Not Null,nvarchar(15)
+Customer,Customer,CustomerRegion,CustomerRegion,Region,Null,nvarchar(15)
+Customer,Customer,CustomerPostalCode,CustomerPostalCode,PostalCode,Null,nvarchar(10)
+Customer,Customer,CustomerCountry,CustomerCountry,Country,Not Null,nvarchar(15)
+Customer,Customer,CustomerPhoneNumber,CustomerPhoneNumber,TelephoneNumber,Not Null,nvarchar(24)
+Customer,Customer,CustomerFaxNumber,CustomerFaxNumber,TelephoneNumber,Null,nvarchar(24)
+Employee,Employee,EmployeeId,EmployeeId,SurrogateKeyInt,Not Null,int
+Employee,Employee,EmployeeLastName,EmployeeLastName,LastName,Not Null,nvarchar(25)
+Employee,Employee,EmployeeFirstName,EmployeeFirstName,FirstName,Not Null,nvarchar(25)
+Employee,Employee,EmployeeTitle,EmployeeTitle,Title,Not Null,nvarchar(30)
+Employee,Employee,EmployeeTitleOfCourtesy,EmployeeTitleOfCourtesy,TitleOfCourtesy,Not Null,nvarchar(5)
+Employee,Employee,BirthDate,BirthDate,DateYYYYMMDD,Not Null,date
+Employee,Employee,HireDate,HireDate,DateYYYYMMDD,Not Null,date
+Employee,Employee,EmployeeAddress,EmployeeAddress,Address,Not Null,nvarchar(60)
+Employee,Employee,EmployeeCity,EmployeeCity,City,Null,nvarchar(15)
+Employee,Employee,EmployeeRegion,EmployeeRegion,Region,Null,nvarchar(15)
+Employee,Employee,EmployeePostalCode,EmployeePostalCode,PostalCode,Null,nvarchar(10)
+Employee,Employee,EmployeeCountry,EmployeeCountry,Country,Not Null,nvarchar(15)
+Employee,Employee,EmployeePhoneNumber,EmployeePhoneNumber,TelephoneNumber,Not Null,nvarchar(24)
+Employee,Employee,EmployeeManagerId,EmployeeManagerId,SurrogateKeyInt,Null,int
+Employee,Employee,EmployeeId,EmployeeId,Number,Not Null,int
+Employee,Employee,EmployeeFullName,EmployeeFullName,String,Not Null,varchar(25)
+Employee,Employee,Department,Department,String,Not Null,varchar(50)
+Employee,Employee,Salary,Salary,Number,Not Null,money
+Employee,Employee,Notes,Notes,String,Not Null,varchar(60)
+Employee,Employee,SysStart,SysStart,Datetime,Not Null,datetime2
+Employee,Employee,SysEnd,SysEnd,Datetime,Not Null,datetime2
+Employee,Employee,EmployeeId,EmployeeId,SurrogateKeyInt,Not Null,int
+Employee,Employee,EmployeeFullName,EmployeeFullName,Name,Not Null,nvarchar(40)
+Employee,Employee,Department,Department,Name,Not Null,nvarchar(40)
+Employee,Employee,Salary,Salary,Currency,Not Null,money
+Employee,Employee,Notes,Notes,Note,Not Null,nvarchar(200)
+Employee,Employee,IsDeleted,IsDeleted,FlagChar,Null,char(1)
+Employee,Employee,TransactionNumber,TransactionNumber,SequenceNo,Null,int
+Employee,Employee,UserAuthenticatedKey,UserAuthenticatedKey,SurrogateKeyInt,Null,int
+Employee,Employee,SysStartTime,SysStartTime,TimeStampNow,Null,datetime2(7)
+Employee,Employee,SysEndTime,SysEndTime,TimeStampNow,Null,datetime2(7)
+Employee,Employee,TimestampRowChanged,TimestampRowChanged,TimeStampNow,Null,datetime2(7)
+Nums,Nums,N,N,SurrogateKeyInt,Not Null,int
+Order,Order,OrderId,OrderId,SurrogateKeyInt,Not Null,int
+Order,Order,CustomerId,CustomerId,SurrogateKeyInt,Null,int
+Order,Order,EmployeeId,EmployeeId,SurrogateKeyInt,Not Null,int
+Order,Order,ShipperId,ShipperId,SurrogateKeyInt,Not Null,int
+Order,Order,OrderDate,OrderDate,DateYYYYMMDD,Not Null,date
+Order,Order,RequiredDate,RequiredDate,DateYYYYMMDD,Not Null,date
+Order,Order,ShipToDate,ShipToDate,DateYYYYMMDD,Null,date
+Order,Order,Freight,Freight,Currency,Not Null,money
+Order,Order,ShipToName,ShipToName,ContactName,Not Null,nvarchar(30)
+Order,Order,ShipToAddress,ShipToAddress,Address,Not Null,nvarchar(60)
+Order,Order,ShipToCity,ShipToCity,City,Not Null,nvarchar(15)
+Order,Order,ShipToRegion,ShipToRegion,Region,Null,nvarchar(15)
+Order,Order,ShipToPostalCode,ShipToPostalCode,PostalCode,Null,nvarchar(10)
+Order,Order,ShipToCountry,ShipToCountry,Country,Not Null,nvarchar(15)
+Order,Order,UserAuthenticationId,UserAuthenticationId,Number,Null,int
+Order,Order,DateAdded,DateAdded,Datetime,Null,datetime2(7)
+Order,Order,DateOfLastUpdate,DateOfLastUpdate,Datetime,Null,datetime2(7)
+OrderDetail,OrderDetail,OrderId,OrderId,SurrogateKeyInt,Not Null,int
+OrderDetail,OrderDetail,ProductId,ProductId,SurrogateKeyInt,Not Null,int
+OrderDetail,OrderDetail,UnitPrice,UnitPrice,Currency,Not Null,money
+OrderDetail,OrderDetail,Quantity,Quantity,QuantitySmall,Not Null,smallint
+OrderDetail,OrderDetail,DiscountPercentage,DiscountPercentage,Percentage,Not Null,"numeric(4,3)"
+Product,Product,ProductId,ProductId,SurrogateKeyInt,Not Null,int
+Product,Product,ProductName,ProductName,ProductName,Not Null,nvarchar(40)
+Product,Product,SupplierId,SupplierId,SurrogateKeyInt,Not Null,int
+Product,Product,CategoryId,CategoryId,SurrogateKeyInt,Not Null,int
+Product,Product,UnitPrice,UnitPrice,Currency,Not Null,money
+Product,Product,Discontinued,Discontinued,FlagBit,Not Null,bit
+Shipper,Shipper,ShipperId,ShipperId,SurrogateKeyInt,Not Null,int
+Shipper,Shipper,ShipperCompanyName,ShipperCompanyName,CompanyName,Not Null,nvarchar(40)
+Shipper,Shipper,PhoneNumber,PhoneNumber,TelephoneNumber,Not Null,nvarchar(24)
+Supplier,Supplier,SupplierId,SupplierId,SurrogateKeyInt,Not Null,int
+Supplier,Supplier,SupplierCompanyName,SupplierCompanyName,CompanyName,Not Null,nvarchar(40)
+Supplier,Supplier,SupplierContactName,SupplierContactName,ContactName,Not Null,nvarchar(30)
+Supplier,Supplier,SupplierContactTitle,SupplierContactTitle,ContactTitle,Not Null,nvarchar(30)
+Supplier,Supplier,SupplierAddress,SupplierAddress,Address,Not Null,nvarchar(60)
+Supplier,Supplier,SupplierCity,SupplierCity,City,Not Null,nvarchar(15)
+Supplier,Supplier,SupplierRegion,SupplierRegion,Region,Null,nvarchar(15)
+Supplier,Supplier,SupplierPostalCode,SupplierPostalCode,PostalCode,Null,nvarchar(10)
+Supplier,Supplier,SupplierCountry,SupplierCountry,Country,Not Null,nvarchar(15)
+Supplier,Supplier,SupplierPhoneNumber,SupplierPhoneNumber,TelephoneNumber,Not Null,nvarchar(24)
+Supplier,Supplier,SupplierFaxNumber,SupplierFaxNumber,TelephoneNumber,Null,nvarchar(24)
+VersionedEmployeeHistory,VersionedEmployeeHistory,EmployeeId,EmployeeId,Number,Not Null,int
+VersionedEmployeeHistory,VersionedEmployeeHistory,EmployeeFullName,EmployeeFullName,String,Not Null,varchar(25)
+VersionedEmployeeHistory,VersionedEmployeeHistory,Department,Department,String,Not Null,varchar(50)
+VersionedEmployeeHistory,VersionedEmployeeHistory,Salary,Salary,Number,Not Null,money
+VersionedEmployeeHistory,VersionedEmployeeHistory,Notes,Notes,String,Not Null,varchar(60)
+VersionedEmployeeHistory,VersionedEmployeeHistory,SysStart,SysStart,Datetime,Not Null,datetime2
+VersionedEmployeeHistory,VersionedEmployeeHistory,SysEnd,SysEnd,Datetime,Not Null,datetime2
+UserAuthorization,UserAuthorization,UserAuthorizationId,UserAuthorizationId,SurrogateKeyInt,Not Null,int
+UserAuthorization,UserAuthorization,ClassTime,ClassTime,_default_,Null,nchar(5)
+UserAuthorization,UserAuthorization,IndividualProjectName,IndividualProjectName,_default_,Null,nvarchar(60)
+UserAuthorization,UserAuthorization,GroupMemberLastName,GroupMemberLastName,_default_,Not Null,nvarchar(35)
+UserAuthorization,UserAuthorization,GroupMemberFirstName,GroupMemberFirstName,_default_,Not Null,nvarchar(25)
+UserAuthorization,UserAuthorization,GroupName,GroupName,_default_,Not Null,nvarchar(20)
+UserAuthorization,UserAuthorization,DateAdded,DateAdded,_default_,Null,datetime2
+UserAuthorization,UserAuthorization,DateOfOfLastUpdate,DateOfOfLastUpdate,_default_,Null,datetime2

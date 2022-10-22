@@ -1,0 +1,116 @@
+Count of Physical Data Type,,Null Option,,
+Physical Data Type,Column Name,Not Null,Null,Grand Total
+bit,Discontinued,1,,1
+bit Total,,1,,1
+char(1),IsDeleted,,2,2
+,TriggerOption,,1,1
+char(1) Total,,,3,3
+date,RequiredDate,1,,1
+,BirthDate,1,,1
+,ShipToDate,,1,1
+,HireDate,1,,1
+,OrderDate,1,,1
+date Total,,4,1,5
+datetime2,SysStart,2,,2
+,SysEnd,2,,2
+,DateAdded,,1,1
+,DateOfOfLastUpdate,,1,1
+datetime2 Total,,4,2,6
+datetime2(7),SysEndTime,,2,2
+,TimestampRowChanged,,2,2
+,SysStartTime,,2,2
+,DateAdded,,1,1
+,AuditTriggeredEmployeeHistoryTimestamp,,1,1
+,DateOfLastUpdate,,1,1
+datetime2(7) Total,,,9,9
+int,EmployeeId,6,,6
+,CategoryId,2,,2
+,CustomerId,1,1,2
+,ShipperId,2,,2
+,SupplierId,2,,2
+,TransactionNumber,,2,2
+,UserAuthenticatedKey,,2,2
+,OrderId,2,,2
+,ProductId,2,,2
+,UserAuthenticationId,,1,1
+,EmployeeManagerId,,1,1
+,UserAuthorizationId,1,,1
+,TriggeredEmployeeHistoryId,1,,1
+,N,1,,1
+int Total,,20,7,27
+money,Salary,4,,4
+,UnitPrice,2,,2
+,Freight,1,,1
+money Total,,7,,7
+nchar(5),ClassTime,,1,1
+nchar(5) Total,,,1,1
+"numeric(4,3)",DiscountPercentage,1,,1
+"numeric(4,3) Total",,1,,1
+nvarchar(10),SupplierPostalCode,,1,1
+,ShipToPostalCode,,1,1
+,CustomerPostalCode,,1,1
+,EmployeePostalCode,,1,1
+nvarchar(10) Total,,,4,4
+nvarchar(15),ShipToCity,1,,1
+,SupplierCountry,1,,1
+,ShipToRegion,,1,1
+,CustomerCity,1,,1
+,CategoryName,1,,1
+,CustomerCountry,1,,1
+,ShipToCountry,1,,1
+,CustomerRegion,,1,1
+,SupplierCity,1,,1
+,EmployeeCity,,1,1
+,SupplierRegion,,1,1
+,EmployeeCountry,1,,1
+,EmployeeRegion,,1,1
+nvarchar(15) Total,,8,5,13
+nvarchar(20),GroupName,1,,1
+nvarchar(20) Total,,1,,1
+nvarchar(200),Notes,2,,2
+,Description,1,,1
+nvarchar(200) Total,,3,,3
+nvarchar(24),PhoneNumber,1,,1
+,SupplierPhoneNumber,1,,1
+,SupplierFaxNumber,,1,1
+,CustomerPhoneNumber,1,,1
+,CustomerFaxNumber,,1,1
+,EmployeePhoneNumber,1,,1
+nvarchar(24) Total,,4,2,6
+nvarchar(25),EmployeeFirstName,1,,1
+,GroupMemberFirstName,1,,1
+,EmployeeLastName,1,,1
+nvarchar(25) Total,,3,,3
+nvarchar(30),ShipToName,1,,1
+,SupplierContactTitle,1,,1
+,SupplierContactName,1,,1
+,CustomerContactTitle,1,,1
+,CustomerContactName,1,,1
+,EmployeeTitle,1,,1
+nvarchar(30) Total,,6,,6
+nvarchar(35),GroupMemberLastName,1,,1
+nvarchar(35) Total,,1,,1
+nvarchar(40),Department,2,,2
+,EmployeeFullName,2,,2
+,SupplierCompanyName,1,,1
+,ShipperCompanyName,1,,1
+,CustomerCompanyName,1,,1
+,ProductName,1,,1
+nvarchar(40) Total,,8,,8
+nvarchar(5),EmployeeTitleOfCourtesy,1,,1
+nvarchar(5) Total,,1,,1
+nvarchar(60),ShipToAddress,1,,1
+,CustomerAddress,1,,1
+,SupplierAddress,1,,1
+,EmployeeAddress,1,,1
+,IndividualProjectName,,1,1
+nvarchar(60) Total,,4,1,5
+smallint,Quantity,1,,1
+smallint Total,,1,,1
+varchar(25),EmployeeFullName,2,,2
+varchar(25) Total,,2,,2
+varchar(50),Department,2,,2
+varchar(50) Total,,2,,2
+varchar(60),Notes,2,,2
+varchar(60) Total,,2,,2
+Grand Total,,83,35,118
