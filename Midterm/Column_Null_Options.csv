@@ -1,0 +1,248 @@
+ERwin Property Ids,1075850516::User Formatted Name  [read only],0::Object Type  [read only],1075849176::Physical Name,1075849017::Attribute,1075849056::Physical Data Type,1075849062::Null Option
+1075838981::318,AuditTriggeredEmployeeHistoryTimestamp,Column,AuditTriggeredEmployeeHistoryTimestamp,,datetime2,Null
+1075838981::381,BirthDate,Column,BirthDate,,date,Not Null
+1075838981::540,BirthDate,Column,BirthDate,,date,Not Null
+1075838981::356,CategoryId,Column,CategoryId,,integer,Not Null
+1075838981::489,CategoryId,Column,CategoryId,,integer,Not Null
+1075838981::563,CategoryId,Column,CategoryId,,integer,Not Null
+1075838981::357,CategoryName,Column,CategoryName,,nvarchar(15),Not Null
+1075838981::552,CategoryName,Column,CategoryName,,nvarchar(15),Not Null
+1075838981::567,CategoryName,Column,CategoryName,,nvarchar(15),Not Null
+1075838981::551,CategoryObjectId,Column,CategoryObjectId,,integer,Not Null
+1075838981::566,CategoryObjectId,Column,CategoryObjectId,,integer,Not Null
+1075838981::638,CheckConstraintRuleName,Column,CheckConstraintRuleName,,varchar(20),Null
+1075838981::651,CheckConstraintRuleName,Column,CheckConstraintRuleName,,varchar(20),Null
+1075838981::639,CheckConstraintRuleNameDefinition,Column,CheckConstraintRuleNameDefinition,,varchar(20),Null
+1075838981::652,CheckConstraintRuleNameDefinition,Column,CheckConstraintRuleNameDefinition,,varchar(20),Null
+1075838981::731,ClassTime,Column,ClassTime,,nchar(5),Null
+1075838981::630,ColumnName,Column,ColumnName,,varchar(20),Null
+1075838981::644,ColumnName,Column,ColumnName,,varchar(20),Null
+1075838981::366,CustomerAddress,Column,CustomerAddress,,nvarchar(60),Not Null
+1075838981::592,CustomerAddress,Column,CustomerAddress,,nvarchar(60),Not Null
+1075838981::367,CustomerCity,Column,CustomerCity,,nvarchar(15),Not Null
+1075838981::593,CustomerCity,Column,CustomerCity,,nvarchar(15),Not Null
+1075838981::363,CustomerCompanyName,Column,CustomerCompanyName,,nvarchar(40),Not Null
+1075838981::589,CustomerCompanyName,Column,CustomerCompanyName,,nvarchar(40),Not Null
+1075838981::364,CustomerContactName,Column,CustomerContactName,,nvarchar(50),Not Null
+1075838981::590,CustomerContactName,Column,CustomerContactName,,nvarchar(50),Not Null
+1075838981::365,CustomerContactTitle,Column,CustomerContactTitle,,nvarchar(5),Not Null
+1075838981::591,CustomerContactTitle,Column,CustomerContactTitle,,nvarchar(5),Not Null
+1075838981::370,CustomerCountry,Column,CustomerCountry,,nvarchar(15),Not Null
+1075838981::596,CustomerCountry,Column,CustomerCountry,,nvarchar(15),Not Null
+1075838981::372,CustomerFaxNumber,Column,CustomerFaxNumber,,nvarchar(24),Null
+1075838981::598,CustomerFaxNumber,Column,CustomerFaxNumber,,nvarchar(24),Null
+1075838981::362,CustomerId,Column,CustomerId,,integer,Not Null
+1075838981::446,CustomerId,Column,CustomerId,,integer,Null
+1075838981::607,CustomerId,Column,CustomerId,,integer,Null
+1075838981::588,CustomerObjectId,Column,CustomerObjectId,,integer,Not Null
+1075838981::371,CustomerPhoneNumber,Column,CustomerPhoneNumber,,nvarchar(24),Not Null
+1075838981::597,CustomerPhoneNumber,Column,CustomerPhoneNumber,,nvarchar(24),Not Null
+1075838981::369,CustomerPostalCode,Column,CustomerPostalCode,,nvarchar(10),Null
+1075838981::595,CustomerPostalCode,Column,CustomerPostalCode,,nvarchar(10),Null
+1075838981::368,CustomerRegion,Column,CustomerRegion,,nvarchar(15),Null
+1075838981::594,CustomerRegion,Column,CustomerRegion,,nvarchar(15),Null
+1075838981::634,DataType,Column,DataType,,varchar(20),Null
+1075838981::647,DataType,Column,DataType,,varchar(20),Null
+1075838981::656,Database_Name,Column,Database_Name,,varchar(20),Null
+1075838981::460,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::750,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::879,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::883,DateAdded,Column,DateAdded,,datetime2,Null
+1075838981::887,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::891,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::899,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::904,DateAdded,Column,DateAdded,,datetime2,Null
+1075838981::910,DateAdded,Column,DateAdded,,datetime2,Null
+1075838981::1082,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::1089,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::1095,DateAdded,Column,DateAdded,,datetime2(7),Null
+1075838981::461,DateOfLastUpdate,Column,DateOfLastUpdate,,datetime2(7),Null
+1075838981::751,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2(7),Null
+1075838981::881,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2(7),Null
+1075838981::885,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2,Null
+1075838981::889,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2(7),Null
+1075838981::893,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2(7),Null
+1075838981::901,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2(7),Null
+1075838981::906,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2,Null
+1075838981::912,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2,Null
+1075838981::1085,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2(7),Null
+1075838981::1092,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2(7),Null
+1075838981::1098,DateOfOfLastUpdate,Column,DateOfOfLastUpdate,,datetime2(7),Null
+1075838981::636,DefaultName,Column,DefaultName,,varchar(20),Null
+1075838981::649,DefaultName,Column,DefaultName,,varchar(20),Null
+1075838981::637,DefaultNameDefinition,Column,DefaultNameDefinition,,varchar(20),Null
+1075838981::650,DefaultNameDefinition,Column,DefaultNameDefinition,,varchar(20),Null
+1075838981::322,Department,Column,Department,,nvarchar(50),Not Null
+1075838981::397,Department,Column,Department,,varchar(50),Not Null
+1075838981::411,Department,Column,Department,,nvarchar(50),Not Null
+1075838981::523,Department,Column,Department,,varchar(50),Not Null
+1075838981::358,Description,Column,Description,,nvarchar(200),Not Null
+1075838981::553,Description,Column,Description,,nvarchar(200),Not Null
+1075838981::568,Description,Column,Description,,nvarchar(200),Not Null
+1075838981::491,Discontinued,Column,Discontinued,,char(1),Not Null
+1075838981::565,Discontinued,Column,Discontinued,,char(1),Not Null
+1075838981::471,DiscountPercentage,Column,DiscountPercentage,,"numeric(4,3)",Not Null
+1075838981::626,DiscountPercentage,Column,DiscountPercentage,,"numeric(4,3)",Not Null
+1075838981::633,DomainName,Column,DomainName,,varchar(20),Null
+1075838981::383,EmployeeAddress,Column,EmployeeAddress,,nvarchar(60),Not Null
+1075838981::542,EmployeeAddress,Column,EmployeeAddress,,nvarchar(60),Not Null
+1075838981::384,EmployeeCity,Column,EmployeeCity,,nvarchar(15),Null
+1075838981::543,EmployeeCity,Column,EmployeeCity,,nvarchar(15),Null
+1075838981::387,EmployeeCountry,Column,EmployeeCountry,,nvarchar(15),Not Null
+1075838981::546,EmployeeCountry,Column,EmployeeCountry,,nvarchar(15),Not Null
+1075838981::378,EmployeeFirstName,Column,EmployeeFirstName,,nvarchar(25),Not Null
+1075838981::537,EmployeeFirstName,Column,EmployeeFirstName,,nvarchar(25),Not Null
+1075838981::321,EmployeeFullName,Column,EmployeeFullName,,nvarchar(50),Not Null
+1075838981::396,EmployeeFullName,Column,EmployeeFullName,,varchar(25),Not Null
+1075838981::410,EmployeeFullName,Column,EmployeeFullName,,nvarchar(50),Not Null
+1075838981::522,EmployeeFullName,Column,EmployeeFullName,,nvarchar(50),Not Null
+1075838981::320,EmployeeId,Column,EmployeeId,,integer,Not Null
+1075838981::376,EmployeeId,Column,EmployeeId,,integer,Not Null
+1075838981::395,EmployeeId,Column,EmployeeId,,int,Not Null
+1075838981::409,EmployeeId,Column,EmployeeId,,integer,Not Null
+1075838981::447,EmployeeId,Column,EmployeeId,,integer,Not Null
+1075838981::521,EmployeeId,Column,EmployeeId,,int,Not Null
+1075838981::608,EmployeeId,Column,EmployeeId,,integer,Not Null
+1075838981::377,EmployeeLastName,Column,EmployeeLastName,,nvarchar(25),Not Null
+1075838981::536,EmployeeLastName,Column,EmployeeLastName,,nvarchar(25),Not Null
+1075838981::389,EmployeeManagerId,Column,EmployeeManagerId,,integer,Null
+1075838981::548,EmployeeManagerId,Column,EmployeeManagerId,,integer,Null
+1075838981::535,EmployeeObjectId,Column,EmployeeObjectId,,integer,Not Null
+1075838981::388,EmployeePhoneNumber,Column,EmployeePhoneNumber,,nvarchar(24),Not Null
+1075838981::547,EmployeePhoneNumber,Column,EmployeePhoneNumber,,nvarchar(24),Not Null
+1075838981::386,EmployeePostalCode,Column,EmployeePostalCode,,nvarchar(10),Null
+1075838981::545,EmployeePostalCode,Column,EmployeePostalCode,,nvarchar(10),Null
+1075838981::385,EmployeeRegion,Column,EmployeeRegion,,nvarchar(15),Null
+1075838981::544,EmployeeRegion,Column,EmployeeRegion,,nvarchar(15),Null
+1075838981::379,EmployeeTitle,Column,EmployeeTitle,,nvarchar(5),Not Null
+1075838981::538,EmployeeTitle,Column,EmployeeTitle,,nvarchar(5),Not Null
+1075838981::380,EmployeeTitleOfCourtesy,Column,EmployeeTitleOfCourtesy,,nvarchar(50),Not Null
+1075838981::539,EmployeeTitleOfCourtesy,Column,EmployeeTitleOfCourtesy,,nvarchar(50),Not Null
+1075838981::452,Freight,Column,Freight,,money,Not Null
+1075838981::613,Freight,Column,Freight,,money,Not Null
+1075838981::632,FullyQualifiedDomainName,Column,FullyQualifiedDomainName,,varchar(20),Null
+1075838981::646,FullyQualifiedDomainName,Column,FullyQualifiedDomainName,,varchar(20),Null
+1075838981::627,FullyQualifiedTableName,Column,FullyQualifiedTableName,,varchar(20),Null
+1075838981::642,FullyQualifiedTableName,Column,FullyQualifiedTableName,,varchar(20),Null
+1075838981::748,GroupMemberFirstName,Column,GroupMemberFirstName,,nvarchar(25),Not Null
+1075838981::747,GroupMemberLastName,Column,GroupMemberLastName,,nvarchar(25),Not Null
+1075838981::749,GroupName,Column,GroupName,,char(18),Not Null
+1075838981::382,HireDate,Column,HireDate,,date,Not Null
+1075838981::541,HireDate,Column,HireDate,,date,Not Null
+1075838981::657,Host_Name,Column,Host_Name,,varchar(20),Null
+1075838981::732,IndividualProjectName,Column,IndividualProjectName,,nvarchar(60),Null
+1075838981::655,Instance_Name,Column,Instance_Name,,varchar(20),Null
+1075838981::325,IsDeleted,Column,IsDeleted,,varchar(20),Null
+1075838981::414,IsDeleted,Column,IsDeleted,,varchar(20),Null
+1075838981::635,IsNullable,Column,IsNullable,,varchar(20),Null
+1075838981::648,IsNullable,Column,IsNullable,,varchar(20),Null
+1075838981::441,N,Column,N,,integer,Not Null
+1075838981::324,Notes,Column,Notes,,nvarchar(200),Not Null
+1075838981::399,Notes,Column,Notes,,varchar(60),Not Null
+1075838981::413,Notes,Column,Notes,,nvarchar(200),Not Null
+1075838981::525,Notes,Column,Notes,,varchar(60),Not Null
+1075838981::449,OrderDate,Column,OrderDate,,date,Not Null
+1075838981::610,OrderDate,Column,OrderDate,,date,Not Null
+1075838981::445,OrderId,Column,OrderId,,integer,Not Null
+1075838981::467,OrderId,Column,OrderId,,integer,Not Null
+1075838981::606,OrderId,Column,OrderId,,integer,Not Null
+1075838981::622,OrderId,Column,OrderId,,integer,Not Null
+1075838981::631,OrdinalPosition,Column,OrdinalPosition,,varchar(20),Null
+1075838981::645,OrdinalPosition,Column,OrdinalPosition,,varchar(20),Null
+1075838981::503,PhoneNumber,Column,PhoneNumber,,nvarchar(24),Not Null
+1075838981::603,PhoneNumber,Column,PhoneNumber,,nvarchar(24),Not Null
+1075838981::468,ProductId,Column,ProductId,,integer,Not Null
+1075838981::486,ProductId,Column,ProductId,,integer,Not Null
+1075838981::623,ProductId,Column,ProductId,,integer,Not Null
+1075838981::487,ProductName,Column,ProductName,,nvarchar(15),Not Null
+1075838981::561,ProductName,Column,ProductName,,nvarchar(15),Not Null
+1075838981::560,ProductObjectId,Column,ProductObjectId,,integer,Not Null
+1075838981::470,Quantity,Column,Quantity,,smallint,Not Null
+1075838981::625,Quantity,Column,Quantity,,smallint,Not Null
+1075838981::450,RequiredDate,Column,RequiredDate,,date,Not Null
+1075838981::611,RequiredDate,Column,RequiredDate,,date,Not Null
+1075838981::323,Salary,Column,Salary,,money,Not Null
+1075838981::398,Salary,Column,Salary,,money,Not Null
+1075838981::412,Salary,Column,Salary,,money,Not Null
+1075838981::524,Salary,Column,Salary,,money,Not Null
+1075838981::628,SchemaName,Column,SchemaName,,varchar(20),Null
+1075838981::643,SchemaName,Column,SchemaName,,varchar(20),Null
+1075838981::653,Server_Name,Column,Server_Name,,varchar(20),Null
+1075838981::454,ShipToAddress,Column,ShipToAddress,,nvarchar(60),Not Null
+1075838981::615,ShipToAddress,Column,ShipToAddress,,nvarchar(60),Not Null
+1075838981::455,ShipToCity,Column,ShipToCity,,nvarchar(15),Not Null
+1075838981::616,ShipToCity,Column,ShipToCity,,nvarchar(15),Not Null
+1075838981::458,ShipToCountry,Column,ShipToCountry,,nvarchar(15),Not Null
+1075838981::619,ShipToCountry,Column,ShipToCountry,,nvarchar(15),Not Null
+1075838981::451,ShipToDate,Column,ShipToDate,,date,Null
+1075838981::612,ShipToDate,Column,ShipToDate,,date,Null
+1075838981::453,ShipToName,Column,ShipToName,,nvarchar(50),Not Null
+1075838981::614,ShipToName,Column,ShipToName,,nvarchar(50),Not Null
+1075838981::457,ShipToPostalCode,Column,ShipToPostalCode,,nvarchar(10),Null
+1075838981::618,ShipToPostalCode,Column,ShipToPostalCode,,nvarchar(10),Null
+1075838981::456,ShipToRegion,Column,ShipToRegion,,nvarchar(15),Null
+1075838981::617,ShipToRegion,Column,ShipToRegion,,nvarchar(15),Null
+1075838981::502,ShipperCompanyName,Column,ShipperCompanyName,,nvarchar(40),Not Null
+1075838981::602,ShipperCompanyName,Column,ShipperCompanyName,,nvarchar(40),Not Null
+1075838981::448,ShipperId,Column,ShipperId,,integer,Not Null
+1075838981::501,ShipperId,Column,ShipperId,,integer,Not Null
+1075838981::609,ShipperId,Column,ShipperId,,integer,Not Null
+1075838981::601,ShipperObjectId,Column,ShipperObjectId,,integer,Not Null
+1075838981::511,SupplierAddress,Column,SupplierAddress,,nvarchar(60),Not Null
+1075838981::579,SupplierAddress,Column,SupplierAddress,,nvarchar(60),Not Null
+1075838981::512,SupplierCity,Column,SupplierCity,,nvarchar(15),Not Null
+1075838981::580,SupplierCity,Column,SupplierCity,,nvarchar(15),Not Null
+1075838981::508,SupplierCompanyName,Column,SupplierCompanyName,,nvarchar(40),Not Null
+1075838981::569,SupplierCompanyName,Column,SupplierCompanyName,,nvarchar(40),Not Null
+1075838981::576,SupplierCompanyName,Column,SupplierCompanyName,,nvarchar(40),Not Null
+1075838981::509,SupplierContactName,Column,SupplierContactName,,nvarchar(50),Not Null
+1075838981::570,SupplierContactName,Column,SupplierContactName,,nvarchar(50),Not Null
+1075838981::577,SupplierContactName,Column,SupplierContactName,,nvarchar(50),Not Null
+1075838981::510,SupplierContactTitle,Column,SupplierContactTitle,,nvarchar(30),Not Null
+1075838981::578,SupplierContactTitle,Column,SupplierContactTitle,,nvarchar(30),Not Null
+1075838981::515,SupplierCountry,Column,SupplierCountry,,nvarchar(15),Not Null
+1075838981::583,SupplierCountry,Column,SupplierCountry,,nvarchar(15),Not Null
+1075838981::517,SupplierFaxNumber,Column,SupplierFaxNumber,,nvarchar(24),Null
+1075838981::572,SupplierFaxNumber,Column,SupplierFaxNumber,,nvarchar(24),Null
+1075838981::585,SupplierFaxNumber,Column,SupplierFaxNumber,,nvarchar(24),Null
+1075838981::488,SupplierId,Column,SupplierId,,integer,Not Null
+1075838981::507,SupplierId,Column,SupplierId,,integer,Not Null
+1075838981::562,SupplierId,Column,SupplierId,,integer,Not Null
+1075838981::575,SupplierObjectId,Column,SupplierObjectId,,integer,Not Null
+1075838981::516,SupplierPhoneNumber,Column,SupplierPhoneNumber,,nvarchar(24),Not Null
+1075838981::571,SupplierPhoneNumber,Column,SupplierPhoneNumber,,nvarchar(24),Not Null
+1075838981::584,SupplierPhoneNumber,Column,SupplierPhoneNumber,,nvarchar(24),Not Null
+1075838981::514,SupplierPostalCode,Column,SupplierPostalCode,,nvarchar(10),Null
+1075838981::582,SupplierPostalCode,Column,SupplierPostalCode,,nvarchar(10),Null
+1075838981::513,SupplierRegion,Column,SupplierRegion,,nvarchar(15),Null
+1075838981::581,SupplierRegion,Column,SupplierRegion,,nvarchar(15),Null
+1075838981::401,SysEnd,Column,SysEnd,,datetime2,Not Null
+1075838981::527,SysEnd,Column,SysEnd,,datetime2,Not Null
+1075838981::329,SysEndTime,Column,SysEndTime,,datetime2,Null
+1075838981::400,SysStart,Column,SysStart,,datetime2,Not Null
+1075838981::526,SysStart,Column,SysStart,,datetime2,Not Null
+1075838981::328,SysStartTime,Column,SysStartTime,,datetime2,Null
+1075838981::629,TableName,Column,TableName,,varchar(20),Null
+1075838981::654,Target_Database_Version,Column,Target_Database_Version,,varchar(20),Null
+1075838981::330,TimestampRowChanged,Column,TimestampRowChanged,,datetime2,Null
+1075838981::419,TimestampRowChanged,Column,TimestampRowChanged,,datetime2,Null
+1075838981::326,TransactionNumber,Column,TransactionNumber,,integer,Null
+1075838981::415,TransactionNumber,Column,TransactionNumber,,integer,Null
+1075838981::319,TriggerOption,Column,TriggerOption,,char(1),Null
+1075838981::317,TriggeredEmployeeHistoryId,Column,TriggeredEmployeeHistoryId,,integer,Not Null
+1075838981::469,UnitPrice,Column,UnitPrice,,money,Not Null
+1075838981::490,UnitPrice,Column,UnitPrice,,money,Not Null
+1075838981::564,UnitPrice,Column,UnitPrice,,money,Not Null
+1075838981::624,UnitPrice,Column,UnitPrice,,money,Not Null
+1075838981::870,UserAuthorizationId,Column,UserAuthorizationId,,integer,Null
+1075838981::871,UserAuthorizationId,Column,UserAuthorizationId,,integer,Null
+1075838981::873,UserAuthorizationId,Column,UserAuthorizationId,,integer,Null
+1075838981::874,UserAuthorizationId,Column,UserAuthorizationId,,integer,Null
+1075838981::896,UserAuthorizationId,Column,UserAuthorizationId,,integer,Not Null
+1075838981::898,UserAuthorizationId,Column,UserAuthorizationId,,integer,Null
+1075838981::903,UserAuthorizationId,Column,UserAuthorizationId,,integer,Null
+1075838981::941,UserAuthorizationId,Column,UserAuthorizationId,,integer,Null
+1075838981::975,UserAuthorizationId,Column,UserAuthorizationId,,integer,Null
+1075838981::1071,UserAuthorizationId,Column,UserAuthorizationId,,integer,Not Null
+1075838981::1088,UserAuthorizationId,Column,UserAuthorizationId,,integer,Not Null
+1075838981::1101,UserAuthorizationId,Column,UserAuthorizationId,,integer,Not Null
